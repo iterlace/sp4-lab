@@ -11,7 +11,11 @@ i = 1
 username = "PES"
 s1 = b"byte string"
 s2 = f"hello, {username}"
-s3 = "hello, %s" % username
+s3 = r"raw string"
+
+# Boolean
+b1 = (False)
+b2 = True
 
 
 async def bar():

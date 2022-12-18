@@ -46,10 +46,10 @@ public class Parser {
     public static final List<NamedPattern> patterns = new ArrayList<NamedPattern>(Arrays.asList(
         new NamedPattern(Pattern.compile(TokenPatterns.STRING), "string"),
         new NamedPattern(Pattern.compile(TokenPatterns.KEYWORD), "keyword"),
-        new NamedPattern(Pattern.compile(TokenPatterns.IDENTIFIER), "identifier"),
-        new NamedPattern(Pattern.compile(TokenPatterns.OPERATORS), "operator"),
-        new NamedPattern(Pattern.compile(TokenPatterns.NUMBER), "number"),
         new NamedPattern(Pattern.compile(TokenPatterns.BOOLEAN), "boolean"),
+        new NamedPattern(Pattern.compile(TokenPatterns.IDENTIFIER), "identifier"),
+        new NamedPattern(Pattern.compile(TokenPatterns.NUMBER), "number"),
+        new NamedPattern(Pattern.compile(TokenPatterns.OPERATORS), "operator"),
         new NamedPattern(Pattern.compile(TokenPatterns.DELIMITER), "delimiter"),
         new NamedPattern(Pattern.compile(TokenPatterns.COMMENT), "comment")
     ));
