@@ -15,7 +15,8 @@ s3 = r"raw string"
 
 # Boolean
 b1 = (False)
-b2 = True
+b2 = False
+b3 = True
 
 
 async def bar():
@@ -25,6 +26,9 @@ async def bar():
     await asyncio.sleep(1)
 
     f1 += 1
+    f1 -= 1
+    f1 *= 1
+    f1 /= 1
 
 def foo():
     loop = asyncio.get_event_loop()
